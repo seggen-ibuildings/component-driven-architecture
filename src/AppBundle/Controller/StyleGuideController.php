@@ -9,7 +9,7 @@ use Symfony\Component\HttpFoundation\Request;
 class StyleGuideController extends Controller
 {
     /**
-     * @Route("/style-guide", name="homepage")
+     * @Route("/style-guide", name="style_guide")
      */
     public function indexAction(Request $request)
     {
