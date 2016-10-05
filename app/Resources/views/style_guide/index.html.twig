@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Style Guide{% endblock %}
+
+{% block body %}
+<div id="wrapper">
+    <div id="container">
+        <h1>Components</h1>
+
+        {% include 'components/welcome/style_guide.html.twig' %}
+    </div>
+</div>
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('assets/components/welcome/welcome.css') }}">
+{% endblock %}
