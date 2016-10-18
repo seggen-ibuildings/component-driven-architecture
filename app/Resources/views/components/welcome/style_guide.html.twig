@@ -1,0 +1,15 @@
+{% import 'components/welcome/welcome.html.twig' as welcome %}
+
+<h2>Welcome</h2>
+
+<p>A simple example component.</p>
+
+<p>Code:</p>
+<code>
+    {% verbatim %}
+    {{ welcome.render('the style guide') }}
+    {% endverbatim %}
+</code>
+
+<p>Example:</p>
+{{ welcome.render('the style guide') }}
